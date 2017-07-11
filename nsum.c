@@ -1,13 +1,12 @@
 #include<stdio.h>
 void main()
 {
-int a,b;
-b=0;
-printf("Enter n");
-scanf("%d",&a);
-for(int i=1;i<=a;i++)
+int c,d=0;
+printf("Enter n value");
+scanf("%d",&c);
+for(int i=1;i<=c;i++)
 {
-b=b+i;
+d=d+i;
 }
-printf("Sum = %d",b);
+printf("Sum = %d",d);
 }
